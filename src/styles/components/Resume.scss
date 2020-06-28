@@ -81,10 +81,8 @@
   }
 
   &-tech {
-    li {
-      ::before {
-        content: none !important;
-      }
+    li::before { // sass-lint:disable-line force-pseudo-nesting
+      content: none !important;
     }
   }
 }
@@ -93,10 +91,8 @@
   ul {
     list-style: none;
     padding-inline-start: 24px;
-  }
 
-  li {
-    ::before {
+    li::before { // sass-lint:disable-line force-pseudo-nesting
       color: $grey;
       content: '\2022';
       display: inline-block;
