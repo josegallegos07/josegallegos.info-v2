@@ -14,6 +14,12 @@ npm install
 npm run start
 ```
 
+## run tests
+
+```sh
+npm run test
+```
+
 ## deploy with gh-pages
 
 ```sh
