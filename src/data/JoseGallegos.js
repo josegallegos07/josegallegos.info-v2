@@ -125,7 +125,11 @@ const JoseGallegos = {
         'Actively wrote and maintained technical documentation for projects, including instructional materials for other developers and engineers',
       ],
       projects: [
-        'Lead engineer of a mobile mood-tracking & assessment app (DARPA SUBNETS project)',
+        (
+          <>
+            Lead engineer of a <a href="https://mhealth.jmir.org/2017/4/e44/" target="_blank" rel="noopener noreferrer">mobile mood-tracking & assessment app</a> (DARPA SUBNETS project)
+          </>
+        ),
         'Lead engineer of a cross-platform computerized training program targeting Spatial Neglect',
         'Lead engineer of a web-based Parkinson\'s disease assessment battery',
         'Designed and developed an R-package as a data pulling and processing tool for in-house researchers, research assistants, and external collaborators',
@@ -142,7 +146,11 @@ const JoseGallegos = {
       location: 'San Francisco, CA',
       description: 'Developed an R-package around a large behavioral dataset',
       details: [
-        'Designed and developed an R-package around a large behavioral and neurocognitive dataset for multiple research studies',
+        (
+          <>
+            Designed and developed an <a href="https://github.com/joaquinanguera/aceR" target="_blank" rel="noopener noreferrer">R-package</a> around a behavioral and neurocognitive dataset.
+          </>
+        ),
         'Implemented a robust system for cleaning & processing raw data into a statistical package-friendly format (R, SPSS, excel)',
         'Implemented a dynamic system for calculating summary statistics, both at a participant and at a group level',
         'Implemented a continuous build and automated tests pipeline with Github and Travis CI',

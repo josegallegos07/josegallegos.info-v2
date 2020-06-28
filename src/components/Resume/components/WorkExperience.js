@@ -74,9 +74,9 @@ WorkExperience.propTypes = {
   url: PropTypes.string,
   start: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
   end: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  details: PropTypes.arrayOf(PropTypes.string),
-  projects: PropTypes.arrayOf(PropTypes.string),
-  tech: PropTypes.arrayOf(PropTypes.string),
+  details: PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.node])),
+  projects: PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.node])),
+  tech: PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.node])),
 };
 
 WorkExperience.defaultProps = {
