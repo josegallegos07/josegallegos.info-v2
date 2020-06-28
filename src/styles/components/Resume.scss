@@ -1,0 +1,105 @@
+$grey: #8c8c8c;
+
+@mixin edu-layout {
+  display: flex;
+
+  &--left {
+    min-width: 96px;
+  }
+
+  &--right {
+    width: 100%;
+  }
+}
+
+.resume {
+  &-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px 40px;
+  }
+
+  &-section {
+    padding-top: 24px;
+
+    &-title {
+      font-size: 22px;
+      font-weight: bold;
+      padding-bottom: 16px;
+    }
+
+  }
+}
+
+.education-section {
+  .school {
+    @include edu-layout;
+  }
+}
+
+.awards-section {
+  .award {
+    @include edu-layout;
+  }
+}
+
+.work-experience {
+  @include edu-layout;
+
+  &-logo {
+    img {
+      border-radius: 40px;
+      height: 40px;
+      width: 40px;
+    }
+  }
+
+  &-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  &-dates {
+    color: $grey;
+  }
+
+  &-details {
+    padding-top: 8px;
+  }
+
+  &-tech {
+    li {
+      ::before {
+        content: none !important;
+      }
+    }
+  }
+}
+
+.work-experience-item {
+  ul {
+    list-style: none;
+    padding-inline-start: 24px;
+  }
+
+  li {
+    ::before {
+      color: $grey;
+      content: '\2022';
+      display: inline-block;
+      margin-left: -1em;
+      width: 1em;
+    }
+
+    &-title {
+      font-weight: bold;
+      padding-bottom: 8px;
+    }
+  }
+}
