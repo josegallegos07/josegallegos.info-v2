@@ -1,3 +1,5 @@
+@import '../colors';
+
 $size: 300px;
 
 .profile {
@@ -8,6 +10,7 @@ $size: 300px;
   }
 
   &-name {
+    color: white;
     font-size: 32px;
     padding: 6px 0;
     text-align: center;
