@@ -1,12 +1,12 @@
 import React from 'react';
-import { ExperimentOutlined, CoffeeOutlined, MailOutlined } from '@ant-design/icons';
+import { ExperimentOutlined, RobotOutlined, MailOutlined } from '@ant-design/icons';
 
 const JoseGallegos = {
   name: 'Jose Gallegos',
   img: 'josegallegos',
   profile: [
     {
-      icon: <CoffeeOutlined />,
+      icon: <RobotOutlined />,
       content: (
         <div>San Francisco, CA</div>
       ),

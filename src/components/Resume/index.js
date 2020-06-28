@@ -1,4 +1,5 @@
 import React from 'react';
+import { RocketOutlined, CoffeeOutlined, TrophyOutlined } from '@ant-design/icons';
 import ResumeSection from './components/ResumeSection';
 import EducationSection from './components/EducationSection';
 import AwardsSection from './components/AwardsSection';
@@ -11,17 +12,17 @@ function Resume({ education, awards, work }) {
     <div className="resume">
       <div className="resume-container">
         {education && (
-          <ResumeSection title="Education">
+          <ResumeSection title="Education" icon={<RocketOutlined />}>
             <EducationSection items={education} />
           </ResumeSection>
         )}
         {awards && (
-          <ResumeSection title="Honors & Awards">
+          <ResumeSection title="Honors & Awards" icon={<TrophyOutlined />}>
             <AwardsSection items={awards} />
           </ResumeSection>
         )}
         {work && (
-          <ResumeSection title="Work">
+          <ResumeSection title="Work" icon={<CoffeeOutlined />}>
             <WorkSection items={work} />
           </ResumeSection>
         )}
