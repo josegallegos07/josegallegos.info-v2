@@ -2,11 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Divider } from 'antd';
 import WorkExperienceItem from './WorkExperienceItem';
+import CompanyImage from './CompanyImage';
 
 function WorkExperience({
   title,
   company,
   companyDetails,
+  url,
   img,
   start,
   end,
@@ -18,14 +20,21 @@ function WorkExperience({
     <div className="work-experience">
       <div className="work-experience--left">
         <div className="work-experience-logo">
-          <img alt={company} src={`img/logo/${img}.png`} />
+          <CompanyImage alt={company} img={img} url={url} />
         </div>
       </div>
       <div className="work-experience--right">
         <div className="work-experience-header">
           <div className="work-experience-title">{title}</div>
         </div>
-        <div className="work-experience-company">{company}</div>
+        <div className="work-experience-company">
+          {url && (
+            <a href={url} target="_blank" rel="noopener noreferrer">
+              {company}
+            </a>
+          )}
+          {!url && (<>{company}</>)}
+        </div>
         {companyDetails && (
           <div className="work-experience-company-details">{companyDetails}</div>
         )}
@@ -62,6 +71,7 @@ WorkExperience.propTypes = {
   company: PropTypes.string.isRequired,
   companyDetails: PropTypes.string,
   img: PropTypes.string.isRequired,
+  url: PropTypes.string,
   start: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
   end: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   details: PropTypes.arrayOf(PropTypes.string),
@@ -75,6 +85,7 @@ WorkExperience.defaultProps = {
   projects: null,
   tech: null,
   companyDetails: null,
+  url: null,
 };
 
 export default WorkExperience;

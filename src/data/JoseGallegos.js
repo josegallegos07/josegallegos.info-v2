@@ -77,6 +77,7 @@ const JoseGallegos = {
     {
       title: 'Full-Stack Engineer',
       company: 'Woebot Labs',
+      url: 'https://woebot.io',
       img: 'woebot',
       start: 'May 2020',
       end: 'Present',
@@ -85,6 +86,7 @@ const JoseGallegos = {
     {
       title: 'Full-Stack Engineer',
       company: 'PeopleGrove',
+      url: 'https://www.peoplegrove.com',
       img: 'peoplegrove',
       start: 'October 2018',
       end: 'January 2020',
@@ -107,6 +109,7 @@ const JoseGallegos = {
     {
       title: 'Software Engineer',
       company: 'Posit Science',
+      url: 'https://www.brainhq.com',
       img: 'positscience',
       start: 'January 2012',
       end: 'June 2018',
@@ -132,6 +135,7 @@ const JoseGallegos = {
     {
       title: 'R-Developer',
       company: 'UCSF Sandler Neurosciences Center',
+      url: 'https://neuroscape.ucsf.edu/locations/sandler-neurosciences-center',
       img: 'ucsf',
       start: 'October 2015',
       end: 'August 2016',
@@ -150,6 +154,7 @@ const JoseGallegos = {
     {
       title: 'Undergraduate Research Assistant',
       company: 'Helen Wills Neuroscience Institute at UC Berkeley',
+      url: 'https://vcresearch.berkeley.edu/research-unit/helen-wills-neuroscience-institute',
       img: 'berkeley',
       start: 'January 2011',
       end: 'August 2011',
@@ -167,6 +172,7 @@ const JoseGallegos = {
     {
       title: 'Undergraduate Research Assistant',
       company: 'Institute of Personality and Social Research at UC Berkeley',
+      url: 'https://bsil.berkeley.edu',
       companyDetails: 'Berkeley Social Interaction Laboratory',
       img: 'berkeley',
       start: 'January 2010',
