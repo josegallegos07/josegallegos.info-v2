@@ -51,6 +51,11 @@
 
 .work-experience {
   @include edu-layout;
+  @include small-size {
+    &--left {
+      display: none;
+    }
+  }
 
   &-logo {
     $img-size: 50px;

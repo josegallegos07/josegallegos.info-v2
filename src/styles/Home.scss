@@ -12,7 +12,7 @@
       width: 60%;
     }
 
-    @include medium {
+    @include medium-size {
       flex-direction: column;
 
       .resume {

@@ -1,7 +1,14 @@
 $medium: 1068px;
+$small: 600px;
 
-@mixin medium {
+@mixin medium-size {
   @media only screen and (max-width: $medium) {
+    @content
+  }
+}
+
+@mixin small-size {
+  @media only screen and (max-width: $small) {
     @content
   }
 }
