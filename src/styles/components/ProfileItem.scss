@@ -1,0 +1,13 @@
+.profile-item {
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+
+  &-content {
+    padding-left: 8px;
+  }
+
+  .anticon {
+    color: red;
+  }
+}

@@ -1,8 +1,17 @@
 @import 'colors';
 
 .home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-  .social-media {
-    width: 160px;
+  &-social-media-container {
+    display: flex;
+    justify-content: center;
+
+    .social-media {
+      padding-top: 16px;
+      width: 160px;
+    }
   }
 };
