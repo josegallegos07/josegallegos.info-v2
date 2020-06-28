@@ -5,6 +5,20 @@ body {
   color: $white;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
+
+  a {
+    color: $primary;
+
+    &:link,
+    &:active {
+      color: $primary;
+    }
+
+    &:hover {
+      color: $white;
+      text-decoration: none;
+    }
+  }
 }
 
 .app {
