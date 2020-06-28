@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/josegallegos.info-v2/precache-manifest.69fd643e522ef4e8a80f68add5144a7b.js"
+  "/josegallegos.info-v2/precache-manifest.eadc880a30527695665efad2d0f5a515.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/josegallegos.info-v2/static/css/main.767ed6e6.chunk.css",
-    "main.js": "/josegallegos.info-v2/static/js/main.ffedccbc.chunk.js",
-    "main.js.map": "/josegallegos.info-v2/static/js/main.ffedccbc.chunk.js.map",
+    "main.js": "/josegallegos.info-v2/static/js/main.99181439.chunk.js",
+    "main.js.map": "/josegallegos.info-v2/static/js/main.99181439.chunk.js.map",
     "runtime-main.js": "/josegallegos.info-v2/static/js/runtime-main.29e2648f.js",
     "runtime-main.js.map": "/josegallegos.info-v2/static/js/runtime-main.29e2648f.js.map",
     "static/css/2.3cb76441.chunk.css": "/josegallegos.info-v2/static/css/2.3cb76441.chunk.css",
     "static/js/2.0cc45490.chunk.js": "/josegallegos.info-v2/static/js/2.0cc45490.chunk.js",
     "static/js/2.0cc45490.chunk.js.map": "/josegallegos.info-v2/static/js/2.0cc45490.chunk.js.map",
     "index.html": "/josegallegos.info-v2/index.html",
-    "precache-manifest.69fd643e522ef4e8a80f68add5144a7b.js": "/josegallegos.info-v2/precache-manifest.69fd643e522ef4e8a80f68add5144a7b.js",
+    "precache-manifest.eadc880a30527695665efad2d0f5a515.js": "/josegallegos.info-v2/precache-manifest.eadc880a30527695665efad2d0f5a515.js",
     "service-worker.js": "/josegallegos.info-v2/service-worker.js",
     "static/css/2.3cb76441.chunk.css.map": "/josegallegos.info-v2/static/css/2.3cb76441.chunk.css.map",
     "static/css/main.767ed6e6.chunk.css.map": "/josegallegos.info-v2/static/css/main.767ed6e6.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.3cb76441.chunk.css",
     "static/js/2.0cc45490.chunk.js",
     "static/css/main.767ed6e6.chunk.css",
-    "static/js/main.ffedccbc.chunk.js"
+    "static/js/main.99181439.chunk.js"
   ]
 }

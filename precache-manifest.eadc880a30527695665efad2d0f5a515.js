@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "43827d5cf642387bea593c7c066ca358",
+    "revision": "79b59b81cd4cccd537dc802f6182c352",
     "url": "/josegallegos.info-v2/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/josegallegos.info-v2/static/css/2.3cb76441.chunk.css"
   },
   {
-    "revision": "86d7729e6ad15b4e6d0f",
+    "revision": "f5ef95f568a81f13f86f",
     "url": "/josegallegos.info-v2/static/css/main.767ed6e6.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/josegallegos.info-v2/static/js/2.0cc45490.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "86d7729e6ad15b4e6d0f",
-    "url": "/josegallegos.info-v2/static/js/main.ffedccbc.chunk.js"
+    "revision": "f5ef95f568a81f13f86f",
+    "url": "/josegallegos.info-v2/static/js/main.99181439.chunk.js"
   },
   {
     "revision": "40a08d5c1e8b4556841f",
