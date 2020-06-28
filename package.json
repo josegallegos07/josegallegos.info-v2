@@ -5,6 +5,7 @@
   "author": "Jose Gallegos",
   "license": "MIT",
   "main": "src/index.js",
+  "homepage": "https://josegallegos07.github.io/josegallegos.info-v2",
   "dependencies": {
     "@ant-design/icons": "^4.1.0",
     "antd": "^4.2.2",
