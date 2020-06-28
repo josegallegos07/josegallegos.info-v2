@@ -4,8 +4,6 @@ import App from './App';
 
 import 'antd/dist/antd.css';
 
-function Root() {
-  return <App />;
-}
+const Root = () => <App />;
 
 ReactDOM.render(<Root />, document.getElementById('root'));
