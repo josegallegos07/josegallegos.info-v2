@@ -130,7 +130,11 @@ const JoseGallegos = {
             Lead engineer of a <a href="https://mhealth.jmir.org/2017/4/e44/" target="_blank" rel="noopener noreferrer">mobile mood-tracking & assessment app</a> (DARPA SUBNETS project)
           </>
         ),
-        'Lead engineer of a cross-platform computerized training program targeting Spatial Neglect',
+        (
+          <>
+            Lead engineer of a cross-platform <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3922254" target="_blank" rel="noopener noreferrer">computerized training program</a> targeting Spatial Neglect
+          </>
+        ),
         'Lead engineer of a web-based Parkinson\'s disease assessment battery',
         'Designed and developed an R-package as a data pulling and processing tool for in-house researchers, research assistants, and external collaborators',
       ],
