@@ -15,7 +15,7 @@ function Award({ label, start, end }) {
 }
 
 Award.propTypes = {
-  label: PropTypes.string.isRequired,
+  label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]).isRequired,
   start: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
   end: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 };

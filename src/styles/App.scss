@@ -3,8 +3,8 @@
 body {
   background-color: $black;
   color: $white;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
+  // font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 
   a {
     color: $primary;
@@ -15,20 +15,15 @@ body {
     }
 
     &:hover {
-      color: $white;
+      color: $secondary;
       text-decoration: none;
     }
   }
 }
 
 .app {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
   &-content {
     display: flex;
     justify-content: center;
-    padding-top: 36px;
   }
 }

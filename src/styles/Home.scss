@@ -1,9 +1,48 @@
 @import 'colors';
+@import 'layout';
 
 .home {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+
+  &-container {
+    display: flex;
+    flex-direction: row;
+
+    .home-profile {
+      margin-bottom: 36px;
+      width: 60%;
+    }
+
+    @include medium {
+      flex-direction: column;
+
+      .resume {
+        height: auto !important;
+      }
+
+      .home-profile {
+        width: 100%;
+      }
+
+      .home-resume {
+        padding-top: 16px;
+      }
+    }
+  }
+
+  .profile,
+  .resume {
+    margin-top: 36px;
+  }
+
+  .resume {
+    height: 100vh;
+    overflow: auto;
+  }
+
+  &-resume {
+    background-color: $white;
+    color: $black;
+  }
 
   &-social-media-container {
     display: flex;

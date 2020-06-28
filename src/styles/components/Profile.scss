@@ -3,6 +3,11 @@
 $size: 300px;
 
 .profile {
+  &-img-container {
+    display: flex;
+    justify-content: center;
+  }
+
   &-img {
     border-radius: $size / 2;
     height: $size;

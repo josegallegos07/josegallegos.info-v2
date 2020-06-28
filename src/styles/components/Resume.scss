@@ -1,4 +1,5 @@
-$grey: #8c8c8c;
+@import '../colors';
+@import '../layout';
 
 @mixin edu-layout {
   display: flex;
@@ -17,11 +18,11 @@ $grey: #8c8c8c;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 24px 40px;
+    padding: 0 40px;
   }
 
   &-section {
-    padding-top: 24px;
+    padding-bottom: 24px;
 
     &-title {
       font-size: 22px;
@@ -48,10 +49,12 @@ $grey: #8c8c8c;
   @include edu-layout;
 
   &-logo {
+    $img-size: 50px;
+
     img {
-      border-radius: 40px;
-      height: 40px;
-      width: 40px;
+      border-radius: $img-size;
+      height: $img-size;
+      width: $img-size;
     }
   }
 
@@ -96,10 +99,10 @@ $grey: #8c8c8c;
       margin-left: -1em;
       width: 1em;
     }
+  }
 
-    &-title {
-      font-weight: bold;
-      padding-bottom: 8px;
-    }
+  &-title {
+    font-weight: bold;
+    padding-bottom: 8px;
   }
 }

@@ -1,0 +1,7 @@
+$medium: 1068px;
+
+@mixin medium {
+  @media only screen and (max-width: $medium) {
+    @content
+  }
+}

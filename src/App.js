@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import data from './data/JoseGallegos';
-import NavBar from './components/NavBar';
 import Home from './containers/Home';
 
 const Routes = () => [
@@ -16,6 +15,9 @@ const Routes = () => [
         location={data.location}
         social={data.social}
         profile={data.profile}
+        education={data.education}
+        awards={data.awards}
+        work={data.work}
       />
     )}
   />,
@@ -24,7 +26,6 @@ const Routes = () => [
 function App() {
   return (
     <div className="app">
-      <NavBar />
       <div className="app-content">
         <Router>
           <Switch>
