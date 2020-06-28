@@ -1,8 +1,13 @@
 import React from 'react';
+import SocialMedia from '../components/SocialMedia';
 
-function Home() {
+import '../styles/Home.scss';
+
+function Home({ social }) {
   return (
-    <div>sup, its me</div>
+    <div className="home">
+      <SocialMedia items={social} />
+    </div>
   );
 }
 

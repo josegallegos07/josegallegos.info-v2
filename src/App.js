@@ -1,15 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import data from './data/JoseGallegos';
 import Home from './containers/Home';
 
-const routes = [
-  {
-    path: '/',
-    component: Home,
-  },
+const Routes = () => [
+  <Route
+    key="home"
+    path="/"
+    render={() => <Home social={data.social} />}
+  />,
 ];
-
-const Routes = () => routes.map((route) => (<Route key={route.key} {...route} />));
 
 function App() {
   return (

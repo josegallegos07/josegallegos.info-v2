@@ -1,0 +1,43 @@
+
+.social-media-link {
+  border-radius: 6px;
+  height: 40px;
+  padding: 8px;
+  width: 40px;
+
+  path {
+    fill: white;
+  }
+
+  &--dribble {
+    background-color: #ea4c89;
+  }
+
+  &--github {
+    background-color: #333333;
+  }
+
+  &--linkedin {
+    background-color: #0084b8;
+  }
+
+  &--lastfm {
+    background-color: #d51007;
+  }
+
+  &--youtube {
+    background-color: #b31217;
+  }
+
+  &--kickstarter {
+    background-color: #2bde73;
+  }
+
+  &---angellist {
+    background-color: #353e4a;
+  }
+
+  &:hover {
+    background-color: #44546a;
+  }
+}
