@@ -1,5 +1,6 @@
 @import 'colors';
 @import 'layout';
+@import 'patterns';
 
 .home {
 
@@ -8,7 +9,8 @@
     flex-direction: row;
 
     .home-profile {
-      margin-bottom: 36px;
+      @include pattern1;
+      margin-bottom: 24px;
       width: 60%;
     }
 
