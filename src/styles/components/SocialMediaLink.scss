@@ -1,9 +1,10 @@
 
 .social-media-link {
+  $size: 36px;
   border-radius: 6px;
-  height: 40px;
+  height: $size;
   padding: 8px;
-  width: 40px;
+  width: $size;
 
   path {
     fill: white;
