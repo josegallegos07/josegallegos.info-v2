@@ -13,7 +13,29 @@
   }
 }
 
+@mixin company-img {
+  $img-size: 50px;
+
+  img {
+    border-radius: $img-size;
+    height: $img-size;
+    width: $img-size;
+  }
+}
+
+@mixin dates {
+  color: $grey-2;
+  font-size: 13px;
+}
+
+@mixin item-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
 .resume {
+  line-height: 1.7em;
+
   &-container {
     display: flex;
     flex-direction: column;
@@ -44,6 +66,18 @@
 .education-section {
   .school {
     @include edu-layout;
+
+    &-title {
+      @include item-title;
+    }
+
+    &-logo {
+      @include company-img;
+    }
+
+    &-dates {
+      @include dates;
+    }
   }
 }
 
@@ -62,13 +96,7 @@
   }
 
   &-logo {
-    $img-size: 50px;
-
-    img {
-      border-radius: $img-size;
-      height: $img-size;
-      width: $img-size;
-    }
+    @include company-img;
   }
 
   &-header {
@@ -77,12 +105,11 @@
   }
 
   &-title {
-    font-size: 16px;
-    font-weight: bold;
+    @include item-title;
   }
 
   &-dates {
-    color: $grey;
+    @include dates;
   }
 
   &-details {

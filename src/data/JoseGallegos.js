@@ -48,6 +48,7 @@ const JoseGallegos = {
       end: 2011,
       degree: 'Bachelors of Arts',
       major: 'Psychology',
+      img: 'berkeley',
     },
   ],
   awards: [

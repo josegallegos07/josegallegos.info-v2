@@ -6,6 +6,7 @@ const defaultProps = {
   school: 'some school',
   degree: 'some degree',
   major: 'some major',
+  img: 'some img',
   start: 2001,
   end: 2020,
 };
