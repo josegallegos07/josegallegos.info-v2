@@ -4,8 +4,7 @@ import Award from '../Award';
 
 const defaultProps = {
   label: 'some award',
-  start: 2001,
-  end: 2020,
+  year: 2001,
 };
 const setup = (props) => shallow(<Award {...defaultProps} {...props} />);
 

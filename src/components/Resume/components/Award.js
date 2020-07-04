@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Award({ label, start, end }) {
+function Award({ label, year }) {
   return (
     <div className="award">
       <div className="award--left">
-        <div>{start} {end && <>- {end}</>}</div>
+        <div>{year}</div>
       </div>
       <div className="award--right">
         <div>{label}</div>
@@ -16,12 +16,7 @@ function Award({ label, start, end }) {
 
 Award.propTypes = {
   label: PropTypes.oneOfType([PropTypes.string, PropTypes.node]).isRequired,
-  start: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
-  end: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-};
-
-Award.defaultProps = {
-  end: null,
+  year: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
 };
 
 export default Award;

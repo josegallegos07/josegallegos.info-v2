@@ -53,7 +53,7 @@ const JoseGallegos = {
   ],
   awards: [
     {
-      start: 2013,
+      year: 2013,
       label: (
         <a href="https://github.blog/2014-01-06-github-game-off-ii-winners/#protocol-390" target="_blank" rel="noopener noreferrer">
           Github Game Off II Winner
@@ -61,16 +61,15 @@ const JoseGallegos = {
       ),
     },
     {
-      start: 2011,
+      year: 2011,
       label: 'Dean’s Honor List',
     },
     {
-      start: 2011,
+      year: 2011,
       label: 'Psi Chi, International Honor Society in Psychology Membership',
     },
     {
-      start: 2007,
-      end: 2011,
+      year: 2007,
       label: 'UC Berkeley: Incentive Awards Program Scholarship',
     },
   ],

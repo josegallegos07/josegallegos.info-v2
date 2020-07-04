@@ -5,7 +5,15 @@
   display: flex;
 
   &--left {
-    min-width: 96px;
+    @include small-size {
+      justify-content: flex-start;
+      width: 80px;
+    }
+
+    display: flex;
+    justify-content: center;
+    width: 105px;
+
   }
 
   &--right {
@@ -25,7 +33,6 @@
 
 @mixin dates {
   color: $grey-2;
-  font-size: 13px;
 }
 
 @mixin item-title {
@@ -57,7 +64,7 @@
     }
 
     &-content {
-      padding: 0 16px;
+      padding: 0 8px;
     }
 
   }

@@ -7,12 +7,11 @@ const defaultProps = {
   items: [
     {
       label: 'some award',
-      start: 2001,
-      end: 2020,
+      year: 2001,
     },
     {
       label: 'some other award',
-      start: 2001,
+      year: 2001,
     },
   ],
 };
