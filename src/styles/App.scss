@@ -6,17 +6,7 @@ body {
   font-weight: 300;
 
   a {
-    color: $primary;
-
-    &:link,
-    &:active {
-      color: $primary;
-    }
-
-    &:hover {
-      color: $secondary;
-      text-decoration: none;
-    }
+    @include clickable-primary;
   }
 }
 
