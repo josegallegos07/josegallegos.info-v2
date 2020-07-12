@@ -3,12 +3,12 @@ $small: 600px;
 
 @mixin medium-size {
   @media only screen and (max-width: $medium) {
-    @content
+    @content;
   }
 }
 
 @mixin small-size {
   @media only screen and (max-width: $small) {
-    @content
+    @content;
   }
 }
