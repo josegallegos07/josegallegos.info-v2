@@ -1,0 +1,5 @@
+@import '../colors';
+
+.text-button {
+  @include clickable-primary;
+}

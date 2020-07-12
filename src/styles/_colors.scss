@@ -7,3 +7,18 @@ $yellow: #ffdd00;
 
 $primary: #2aa8de;
 $secondary: #a5a7a9;
+
+@mixin clickable-primary {
+  color: $primary;
+  cursor: pointer;
+
+  &:link,
+  &:active {
+    color: $primary;
+  }
+
+  &:hover {
+    color: $secondary;
+    text-decoration: none;
+  }
+}
