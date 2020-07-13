@@ -94,6 +94,15 @@
   }
 }
 
+.work-section {
+  padding-bottom: 24px;
+
+  &-more {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
 .work-experience {
   @include edu-layout;
   @include small-size {

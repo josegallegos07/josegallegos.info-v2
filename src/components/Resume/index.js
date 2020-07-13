@@ -23,7 +23,7 @@ function Resume({ education, awards, work }) {
         )}
         {work && (
           <ResumeSection title="Work" icon={<CoffeeOutlined />}>
-            <WorkSection items={work} />
+            <WorkSection items={work} maxItems={4} />
           </ResumeSection>
         )}
       </div>
