@@ -37,8 +37,7 @@
   }
 
   .resume {
-    height: 100vh;
-    overflow: auto;
+    @include viewport-height;
   }
 
   &-resume {

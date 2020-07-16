@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import data from './data/JoseGallegos';
+import Navbar from './components/Navbar';
 import Home from './containers/Home';
 
 const Routes = () => [
@@ -26,6 +27,7 @@ const Routes = () => [
 function App() {
   return (
     <div className="app">
+      <Navbar />
       <div className="app-content">
         <Router>
           <Switch>

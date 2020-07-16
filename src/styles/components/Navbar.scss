@@ -1,0 +1,26 @@
+@import '../layout';
+@import '../colors';
+
+.navbar {
+  @include fixed-navbar;
+
+  align-items: center;
+  background: $black;
+  display: flex;
+  height: $navbar-height;
+  width: 100%;
+
+  &-content {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  &-items {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 30px;
+    width: 180px;
+  }
+}

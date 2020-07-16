@@ -1,5 +1,8 @@
+
 $medium: 1068px;
 $small: 600px;
+
+$navbar-height: 50px;
 
 @mixin medium-size {
   @media only screen and (max-width: $medium) {
@@ -12,3 +15,23 @@ $small: 600px;
     @content;
   }
 }
+
+@mixin viewport-height {
+  height: 100vh;
+  margin-bottom: -$navbar-height;
+  overflow: auto;
+  padding-bottom: $navbar-height;
+}
+
+
+@mixin fixed-navbar {
+  @include medium-size {
+    position: fixed;
+  }
+}
+
+@mixin fixed-navbar-adjust {
+  @include medium-size {
+    padding-top: $navbar-height;
+  }
+};
