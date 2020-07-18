@@ -4,6 +4,7 @@ $white: #fefefd;
 $grey: #b1b4b6;
 $grey-2: #9a9a9a;
 $yellow: #ffdd00;
+$pink: #ea4c89;
 
 $primary: #2aa8de;
 $secondary: #a5a7a9;
@@ -20,5 +21,9 @@ $secondary: #a5a7a9;
   &:hover {
     color: $secondary;
     text-decoration: none;
+  }
+
+  &:focus {
+    outline: 1px dashed $pink;
   }
 }
