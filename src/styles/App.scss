@@ -8,6 +8,14 @@ body {
   a {
     @include clickable-primary;
   }
+
+  ::selection {
+    background: $pink;
+  }
+
+  ::-moz-selection { // sass-lint:disable-line no-vendor-prefixes
+    background: $pink;
+  }
 }
 
 .app {
