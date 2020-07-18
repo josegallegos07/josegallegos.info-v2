@@ -1,5 +1,6 @@
 import React from 'react';
 import { ExperimentOutlined, RobotOutlined, MailOutlined } from '@ant-design/icons';
+import Obfuscate from 'react-obfuscate';
 
 const JoseGallegos = {
   name: 'Jose Gallegos',
@@ -20,7 +21,7 @@ const JoseGallegos = {
     {
       icon: <MailOutlined />,
       content: (
-        <div><a href="mailto:josegallegos07+sup@gmail.com">josegallegos07@gmail.com</a></div>
+        <Obfuscate email="josegallegos07@gmail.com" />
       ),
     },
   ],
