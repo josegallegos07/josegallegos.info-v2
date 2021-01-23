@@ -10,11 +10,11 @@ body {
   }
 
   ::selection {
-    background: $pink;
+    background: $selection;
   }
 
   ::-moz-selection { // sass-lint:disable-line no-vendor-prefixes
-    background: $pink;
+    background: $selection;
   }
 }
 

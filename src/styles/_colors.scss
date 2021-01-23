@@ -4,10 +4,10 @@ $white: #fefefd;
 $grey: #b1b4b6;
 $grey-2: #9a9a9a;
 $yellow: #ffdd00;
-$pink: #ea4c89;
 
 $primary: #2aa8de;
 $secondary: #a5a7a9;
+$selection: #2aa8de;
 
 @mixin clickable-primary {
   color: $primary;
@@ -24,6 +24,6 @@ $secondary: #a5a7a9;
   }
 
   &:focus {
-    outline: 1px dashed $pink;
+    outline: 1px dashed $primary;
   }
 }
