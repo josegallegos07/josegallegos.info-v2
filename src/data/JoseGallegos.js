@@ -15,7 +15,7 @@ const JoseGallegos = {
     {
       icon: <ExperimentOutlined />,
       content: (
-        <div>Software Engineer @ <a href="https://woebot.io" target="_blank" rel="noopener noreferrer">Woebot Labs</a></div>
+        <div>Software Engineer @ <a href="https://woebothealth.com" target="_blank" rel="noopener noreferrer">Woebot Health</a></div>
       ),
     },
     {
@@ -77,8 +77,8 @@ const JoseGallegos = {
   work: [
     {
       title: 'Full-Stack Engineer',
-      company: 'Woebot Labs',
-      url: 'https://woebot.io',
+      company: 'Woebot Health',
+      url: 'https://woebothealth.com',
       img: 'woebot',
       start: 'May 2020',
       end: 'Present',
