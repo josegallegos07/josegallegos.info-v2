@@ -10,7 +10,6 @@
 
     .home-profile {
       @include pattern1;
-      margin-bottom: 24px;
       width: 60%;
     }
 
@@ -31,11 +30,6 @@
     }
   }
 
-  .profile,
-  .resume {
-    margin-top: 36px;
-  }
-
   .resume {
     height: 100vh;
     overflow: auto;
@@ -51,6 +45,7 @@
     justify-content: center;
 
     .social-media {
+      padding-bottom: 24px;
       padding-top: 16px;
       width: 150px;
     }
