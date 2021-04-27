@@ -2,7 +2,7 @@
 
 .profile-item {
   display: flex;
-  font-size: 18px;
+  font-size: 17px;
   justify-content: center;
 
   &-content {
@@ -10,6 +10,6 @@
   }
 
   .anticon {
-    color: $secondary;
+    color: $yellow;
   }
 }
